@@ -1,0 +1,39 @@
+.App {
+    width: 100%;
+    min-height: 100vh;
+    background: white;
+};
+p {
+    margin-bottom: 0;
+}
+
+/* -----------------------HEADER---------------------------- */
+@import url("./homePage/header.css");
+
+/* -----------------------FOOTER---------------------------- */
+@import url("./homePage/footer.css");
+
+/* -----------------------MAIN PAGE---------------------------- */
+@import url("./homePage/homePage.css");
+
+/* -----------------------AUTH PAGE(LOGIN, REGISTER)---------------------------- */
+@import url("./components/auth.css");
+
+/* -----------------------AUTH PAGE(LOGIN, REGISTER)---------------------------- */
+@import url("./profile/profile.css");
+
+/* -----------------------COURSE PAGE---------------------------- */
+@import url("./course/course.css");
+
+/* -----------------------DETAIL COURSE PAGE---------------------------- */
+@import url("./course/detailCourse.css");
+
+
+
+
+
+
+/* -----------------------COMPONENTS---------------------------- */
+
+/* -----------------------AVATAR---------------------------- */
+@import url("./components/avatar.css");

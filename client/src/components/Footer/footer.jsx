@@ -77,7 +77,7 @@ const Footer = () => {
                               About
                           </h6>
                           <p>
-                              <a href="#!" className="text-reset">Angular</a>
+                            <Link to="/about" className="text-reset">About Us</Link>
                           </p>
                           <p>
                               <a href="#!" className="text-reset">React</a>

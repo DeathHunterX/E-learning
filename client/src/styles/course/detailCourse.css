@@ -1,0 +1,11 @@
+.detailCourse {
+    padding: 2.5rem 10rem !important;
+}
+
+.detailCourse p{
+    margin-bottom: 0;
+}
+
+.detailCourse FaCheck{
+    color: blue;
+}
