@@ -11,6 +11,7 @@ import Footer from "./components/Footer/footer"
 import Home from "./pages/home"
 import Login from "./pages/login"
 import Register from "./pages/register"
+import CourseCreate from './pages/course_create';
 
 import PrivacyPolicy from "./pages/privacyPolicy"
 import TermAndCondition from "./pages/termAndConditions"
@@ -39,7 +40,7 @@ function App() {
             {/* Authentication & Authorization */}
             <Route exact path='/login' element={<Login />} />
             <Route exact path='/register' element={<Register />} />
-
+            <Route exact path='/courseCreate' element={<CourseCreate />} />
 
             {/* Rules */}
             <Route exact path='/privacyPolicy' element={<PrivacyPolicy />} />
